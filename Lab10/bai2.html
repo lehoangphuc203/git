@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .bt{
+            color: red;
+            box-shadow: inset 0 0 16px blue;
+            border-radius: 20px;
+            outline: none;
+            padding: 8px 20px;
+            width: 130px;
+            font-weight: bold;
+
+        }
+        .bt:hover{
+            color:blue;
+            box-shadow:inset 0 0 20 pixel orangered;
+        }
+        .lable{
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .bg{
+            
+            width: 400px;
+            height: 25px;
+            outline: none;
+            border: 1px solid gray;
+            border-radius: 3px;
+        }
+        .bggt{
+            width: 375px;
+            height: 25px;
+            outline: none;
+            border: 1px solid gray;
+            
+            padding-bottom: 25px;
+        }
+        .bgđ{
+            
+            width: 400px;
+            height: 25px;
+            outline: none;
+            border: 1px solid gray;
+            border-radius: 3px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label class="lable">Họ và tên:</label><br>
+            <input class="bg" type="text">
+        </div>
+        <div>
+            <fieldset class="bggt">
+                <legend >Giới tính</legend>
+                <label><input type="radio" name="gioitinh">Nam</label>
+                <label><input type="radio" name="gioitinh">Nữ</label>
+            </fieldset>
+        </div>
+        <div>
+            <label class="lable">Ngày sinh:</label><br>
+            <input class="bg" type="date">
+        </div>
+        <div>
+            <label class="lable">Điểm</label><br>
+            <input class="bgđ" type="number" min="0" max="10" step="0.25">
+        </div>
+        <div>
+            <label class="lable">Nghề nghiệp:</label><br>
+            <input class="bg" list="nghenghiep">
+            <datalist id="nghenghiep" class="bg">
+                <option value="Công nghệ thông tin"></option>
+                <option value="Thiết kế đồ họa"></option>
+                <option value="Digital Marketing"></option>
+                <option value="Thiết kế Webside"></option>
+                <option value="Lập trình di động"></option>
+            </datalist>
+        </div>
+        <fieldset class="bggt">
+            <legend class="lable">Sở thích:</legend>
+            <div>
+                <label><input type="checkbox" name="sothich" value="1">Thể thao</label>
+                <label><input type="checkbox" name="sothich" value="1">Du lịch</label>
+                <label><input type="checkbox" name="sothich" value="1">Âm nhạc</label>
+                <label><input type="checkbox" name="sothich" value="1">Ẩm thực</label>
+            </div>
+        </fieldset>
+        <div>
+            <label class="lable">Ghi chú:</label><br>
+            <textarea class="bg" cols="30" rows="3"></textarea>
+        </div>
+        <hr>
+        <div>
+            <button class="bt" type="submit">Đăng ký</button>
+            <button class="bt" type="submit">Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>

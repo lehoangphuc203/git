@@ -1,0 +1,19 @@
+p{
+    text-align: center;
+}
+
+p>img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: rgb(208, 226, 41);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px red;
+}
+p>img:hover{
+    box-shadow: blue;
+    background: rgb(29, 214, 53);
+}
+

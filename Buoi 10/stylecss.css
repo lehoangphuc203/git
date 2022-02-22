@@ -1,0 +1,18 @@
+input:focus{
+    background-color: aquamarine;
+    box-shadow: 0 1px 2px blue;
+}
+input{
+    outline: none;
+
+}
+label{
+    margin-left: 10px;
+}
+.control{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+}
+

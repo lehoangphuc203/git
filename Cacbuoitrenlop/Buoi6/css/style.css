@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hmenu{
+    list-style: none;
+}
+.hmenu>li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 0px ;
+    display: none;
+}
+.smenu>li{
+    display: block;
+    background-color:aqua;
+    border-bottom: 1px solid  blue;
+    width: 150px;
+}
+.smenu>li:hover{
+    background-color:pink;
+}
+.smenu>li :hover {
+    color: green;    
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background: red;
+}

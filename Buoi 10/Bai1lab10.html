@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Buoi 10 PS20608 | Form nhap</title>
+    <link rel="stylesheet" href="stylecss.css">
+</head>
+
+<body>
+    <label>Ho va ten</label><br>
+    <input  class="control" type="text" name="" id="">
+    
+    <fieldset>
+        <legend>Gioi tinh</legend>
+        <label><input  type="radio" name="gioitinh">Nam</label>
+        <label><input  type="radio" name="gioitinh">Nu</label>
+
+    </fieldset class="control">
+    <label>Ngay sinh</label><br>
+    <input class="control" type="date"><br>
+    <label>Diem</label><br>
+    <input class="control" type="number" min="0" max="10" step="0"><br>
+    <label>Nghề ngiệp</label><br>
+    <input class="control" list="danhsach">
+    <datalist id="danh sach">
+        <option value="Bác sĩ"></option>
+        <option value="Kỹ sư"></option>
+        <option value="Công An"></option>
+        <option value="Giáo viên"></option>
+        <option value="Lập trình viên"></option>
+    </datalist>
+    <fieldset>
+        <legend>Sở thích</legend>
+        <label><input type="checkbox" name="Sở thích">Du lich</label>
+        <label><input type="checkbox" name="Sở thích">Am nhac</label>
+        <label><input type="checkbox" name="Sở thích">The thao</label>
+        <label><input type="checkbox" name="Sở thích">Am thực</label>
+    </fieldset>
+    <label>Ghi chú</label><br>
+    <textarea class="control" cols="30" rows="5"></textarea>
+    <hr>
+    <button type="submit">Đăng ký</button>
+    <button type="submit">Nhập lại</button>
+
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    background: rgb(99, 163, 115);
+    
+    
+}
+.box50{
+    width:calc(50% - 10px) ;
+    float: left ;
+    height: 100px;
+    background-color: blue;
+    margin-top: 50px;
+    border: 5px solid red;
+    border-radius: 10px 10px ;
+    box-shadow:inset 0px 0px 50px yellow;
+}
+.mr{
+    margin-right: 20px;
+}

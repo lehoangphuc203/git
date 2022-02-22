@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.container{
+    background-image: url('../baner.jpg');
+    background-size: 100% 100%;
+    height: 328px;
+    position: relative;
+}
+.container>h1{
+    color: #fff;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px red;
+    bottom: 10px;
+    position: relative;
+    left: 40px;
+    top: 250px;
+
+}
+header img{
+    width: 100%;
+}
+.vmenu{
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    float: right;
+    margin-right: 20px;
+}
+.vmenu a{
+    background: url('../images/hinh-tron.jpg') no-repeat 10px center;
+    background-size: 5%;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    margin-right: 10px;
+    display: block;
+    }
+.vmenu a:hover{
+     background : url('../images/muiten.jpg') no-repeat 10px center;
+     border-bottom: 1px dotted white;
+     background-color: orangered;
+     color: white;
+     font-weight: bold;
+     background-size: 5%;
+}
+article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left
+}
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both
+}
+.menu>ul>li{ 
+    display:inline-block
+    
+    }
+    .menu>ul>li>a{
+        display: block;
+    }
+    .menu>ul{ 
+        padding:0px;
+        margin:0px;
+        list-style:none;
+        border-radius:3px;
+        background-color:orangered;
+        text-align:center;
+    }
+        
+    .menu>ul>li>a{
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+    }
+    .menu>ul>li>a:hover{ 
+    color:yellow;
+    }
+.menu ul ul{
+ position:absolute;
+ display:none;
+}
+.menu ul ul a{
+ display:block ;
+}
+.menu>ul>li:hover>ul{
+
+ display:block ;
+}
+.menu ul ul{
+ padding:0 px;
+ margin:0 px;
+ list-style:none;
+ border-radius:3 px;
+ width:200 px;
+ background-color:white;
+ box-shadow:0 0 1 px gray;
+}
+.menu ul ul a{
+ line-height:30 px;
+ color:orangered;
+ text-decoration:none;
+ font-variant:small-caps;
+ font-size:larger;
+ padding:0 10 px;
+}
+.menu ul ul a:hover{
+ background-color:orangered;
+ color:white;
+}
+
+
+
+

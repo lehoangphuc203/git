@@ -1,0 +1,35 @@
+.column{
+    width: 200px;
+    height: 200px;
+   
+    float:  left;
+}
+.sanpham{
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+.sanpham> img{
+    width: 160px;
+    height: 150px;
+    
+
+}
+.sanpham>.name{
+    color: red;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sanpham>.gia{
+    text-align:center;
+    color: yellow;
+    font-size: large;
+    font-weight: bold
+}
+.sanpham> .gia del{
+    color: gray;
+}

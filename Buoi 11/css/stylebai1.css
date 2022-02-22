@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+td:nth-child(2n+1){
+    width: 70px;
+    text-align: center;
+    
+    
+}
+td:nth-child(2n){
+    width: 150px;
+    text-align: center;
+    
+}
+tr{
+    height:30px;
+}
+td {
+    color: black;
+    border-color:rgb(22, 230, 22);
+}
+td:first-child{
+    color: rgb(2, 2, 2);
+    border-color:rgb(22, 230, 22);
+}
+tr:nth-child(2){
+    background-color: rgb(75, 221, 75);
+    font-weight: bold;
+    
+}
+tr:nth-child(3) td:nth-child(2){
+    color: red;
+    font-weight: bold;
+}
+tr:nth-child(3) td:nth-child(2){
+    color: red;
+    font-size: 15px;
+}

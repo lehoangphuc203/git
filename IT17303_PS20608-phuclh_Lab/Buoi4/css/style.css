@@ -1,0 +1,46 @@
+.container_12{
+    width: 1180px;
+    margin: 0 auto;
+    min-height: 500px;
+    background-color: rgb(219, 183, 24);
+    padding: 20px;
+}
+.col_6{
+    width: 580px;
+    float: left;
+    min-height: 480px;
+   
+    
+}
+.col_3{
+    width: 280px;
+    float: left;
+    height: 230px;
+   
+}
+.mr{
+    margin-right: 20px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+
+img{
+    width: 97%;
+    float: left;
+    margin-bottom: 10px;
+}
+.col_3{
+    height: 190px;
+}
+a{
+    color:  #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #008080
+    ;
+}
+.col_6>a{
+    font-size: 28px;
+}

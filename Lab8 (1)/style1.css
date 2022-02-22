@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+ .menu>ul>li{
+display:inline-block ;
+}
+ .menu>ul>li>a{
+display:block ;
+}
+ .menu>ul{
+padding:0 px ;
+margin : 0 px ;
+list-style:none ;
+border-radius:3 px ;
+background-color:orangered ;
+text-align:center ;
+}
+ .menu>ul>li>a{
+text-decoration:none ;
+font-variant : small-caps ;
+font-size:larger ;
+color:white ;
+padding:0 10 px ;
+line-height:40 px ;
+}
+ .menu>ul>li>a:hover{
+color:yellow ;
+}
